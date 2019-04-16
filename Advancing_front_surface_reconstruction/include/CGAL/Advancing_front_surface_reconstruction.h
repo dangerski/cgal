@@ -765,7 +765,7 @@ namespace CGAL {
 
           if ( (re_init = init(re_init)) )
             {
-              //std::cerr << "Growing connected component " << _number_of_connected_components << std::endl;
+              std::cout << "Growing connected component " << _number_of_connected_components << std::endl;
               extend_timer.start();
               extend();
               extend_timer.stop();
